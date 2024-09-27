@@ -1,0 +1,2 @@
+POST {{host}}/api/students/cc9d2644-fffe-4fab-9441-e8f8747ac025/courses/4feccca0-d65b-4969-a0dc-c8e4904ece5d
+Content-Type: application/json

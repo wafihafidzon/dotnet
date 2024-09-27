@@ -1,0 +1,7 @@
+POST {{host}}/api/courses
+Content-Type: application/json
+
+{
+    "title": "Introduction to Programming",
+    "description": "Basic programming concepts using C#"
+}
