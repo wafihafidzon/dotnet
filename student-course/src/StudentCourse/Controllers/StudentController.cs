@@ -1,8 +1,9 @@
+namespace StudentCourse.Controlelrs;
+
 using Microsoft.AspNetCore.Mvc;
 using StudentCourse.Domain;
 using StudentCourse.Services;
 
-namespace StudentCourse.Controlelrs;
 
 [ApiController]
 [Route("api/students")]
@@ -27,6 +28,7 @@ public class StudentController : ControllerBase
     return Ok(student);
   }
 
+
   [HttpPost("{studentId:guid}/courses/{courseId:guid}")]
   public IActionResult AddCourse(Guid studentId, Guid courseId)
   {
@@ -44,7 +46,10 @@ public class StudentController : ControllerBase
     _studentServices.AddCourse(student, course);
     return Ok();
   }
-  public record createStudentRequest(string Name, string? Email)
+
+  public record createStudentRequest(
+      string Name,
+      string Email)
   {
     public Student toDomain()
     
