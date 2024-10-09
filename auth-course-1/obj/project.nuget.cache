@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7c1bcezusDg=",
+  "dgSpecHash": "3Gqd9xCiC5Q=",
   "success": true,
-  "projectFilePath": "/Users/wafihafidzan/Documents/dotnet/learn-dotnet/auth-course/auth-course.csproj",
+  "projectFilePath": "/Users/wafihafidzan/Documents/dotnet/learn-dotnet/auth-course-1/auth-course.csproj",
   "expectedPackageFiles": [
+    "/Users/wafihafidzan/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/wafihafidzan/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "/Users/wafihafidzan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/wafihafidzan/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",

@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<ICoursetRepository, CourseRepository>();
 builder.Services.AddSingleton<IStudentRepository, StudentRepository>();
 
+builder.Services.AddScoped<StudentAuthService>();
 builder.Services.AddScoped<CourseService>();
 builder.Services.AddScoped<StudentService>();
 
